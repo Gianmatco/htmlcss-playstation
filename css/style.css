@@ -108,3 +108,15 @@
     color: white;
 
 }
+
+
+/*footer*/
+footer{
+    background-color: #00439c;
+    color: white;
+}
+
+footer .card{
+    background-color: #00439c;
+}
+
