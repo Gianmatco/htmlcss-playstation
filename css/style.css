@@ -22,6 +22,8 @@
     min-height: 546px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
 
 }
@@ -51,6 +53,7 @@
 }
 .container-gadget:hover{
     border-bottom: 2px solid blue;
+    opacity: 0.5;
     
 
 }
@@ -59,6 +62,9 @@
     min-height: 546px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
     position: relative;
 }
 .jumbotron-card2{
@@ -119,4 +125,15 @@ footer{
 footer .card{
     background-color: #00439c;
 }
+.footer-ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footer-ul ul{
+    list-style-type: none;
 
+}
+
+
+/**/
